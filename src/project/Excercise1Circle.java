@@ -24,7 +24,7 @@ public class Excercise1Circle {
 	public static double area(double radius,double PI) {
 		
 		double result;
-		result=PI*radius*radius;
+		result=PI*Math.sqrt(radius);
 		return result;
 		
 	}
