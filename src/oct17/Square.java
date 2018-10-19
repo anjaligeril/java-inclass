@@ -52,6 +52,10 @@ public class Square {
 	static int noOfObj() {
 		return count++;
 	}
+	
+	public static void printSquare( Square s) {
+		System.out.println(" area of  "+s.length+" is "+s.getArea()+" "+s.getPerimeter());
+	}
 
 
 }
