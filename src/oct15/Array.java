@@ -13,6 +13,7 @@ public class Array {
 			a[i]=obj.nextInt();
 		}
 		
+		
 		for(int i=0;i<a.length;i++) {
 			System.out.println(a[i]);
 		}
